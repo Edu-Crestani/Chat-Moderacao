@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Simulador de Moderação de Chat</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="chat-container">
         <div class="chat-header">Chat Protegido (Regex Multi-Filtro)</div>
@@ -12,10 +14,12 @@
             <div class="message">Bem-vindo! O filtro bloqueia ofensas e variações com números.</div>
         </div>
         <div class="chat-input-area">
-            <input type="text" id="inputMensagem" placeholder="Digite sua mensagem..." onkeypress="verificarEnter(event)">
+            <input type="text" id="inputMensagem" placeholder="Digite sua mensagem..."
+                onkeypress="verificarEnter(event)">
             <button onclick="enviarMensagem()">Enviar</button>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
